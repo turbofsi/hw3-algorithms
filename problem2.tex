@@ -1,0 +1,23 @@
+\section{Problem I}
+\textbf{solution}:\\
+\begin{enumerate}
+	\item \textbf{proof:} \\
+	Without loss of generality, suppose that $I_m > I_t$ are two elements in $\langle I_1, I_2, ..., I_k \rangle$ where $1 \leq m \geq k$, $ 1 \leq t \leq k $ and $m \neq t$. Suppose that Greedy-Schedule determines order $I_m \succ I_t$ on $I$. Greedy-Schedule determines an order $I_m \prec I_t$ on $I'$.\\
+
+	From definition of order restriction, for $I_m, I_t \in I$ and $I_m, I_t \in I'$. $I_m$ precedes $I_t$ \textbf{iff} it also determines an order on $I'$ where $I_m$ precedes $I_t$ yielding a contradiction to the assumption that $I_m \succ I_t$ on $I$, $I_m \prec I_t$ on $I'$. The opposite direction is the same. Thus, Greedy-Schedule determines an order $I_1 \succ I_2 \succ ... \succ I_k$ on $I$ if Greedy-Schedule determines an order $I_1 \succ I_2 \succ ... \succ I_k$ on $I'$. 
+	\item \textbf{proof:}\\
+	we first prove if (a), (b) and (c) happens $\Rightarrow$ Greedy-Schedule is not correct.\\
+
+	If we use algorithm First Starting Time First which means we choose interval in $I$ with the earliest start time. Let interval $I[a], I[b], I[c] \in I $ where $s_a < s_b < s_c$ and $f_c < f_a$ and $f_b < s_c$. For these three intervals, they meet (a), (b), (c) as shown in the figure.\\
+
+	If we choose interval in $I$ with the earliest start time, then we will choose $I_a$ instead of $I_b$ and $I_c$. For optimal schedule, we should choose $I_b$ and $I_c$ instead of $I_a$ since we could schedule more intervals within the same time slot. Thus, Greedy-Schedule is not optimal. \\
+
+	Greedy-Schedule is not correct $\Rightarrow$ (a), (b), (c) happens. \\
+
+	If Greedy-Schedule is not optimal, which means it will choose less intervals compare with the optimal set. If Greedy-Schedule $GS$ is not optimal and $I_a, I_b, I_c \in I$. As $GS$ is not optimal we can assume that $GS$ picked $I_a$ instead of $I_b, I_c$. But for the optimal schedule set($OS$), it choose $I_b$ and $I_c$ instead of $I_a$. Which means that $I_a$ should overlap with $I_b$ and $I_c$. So they could not be chosen at the same time. Which meets the situation (a). As $I_b$ and $I_c$ could be chosen together which implies that $I_b$ and $I_c$ does not overlap with each other. So it also meets situation (b). As in $GS$, $I_a$ is chosen first, so we could not choose $I_b$ and $I_c$. Which implies that on input I Greedy-Schedule determines an ordering $O$ where $I[a]$ comes before $I[b]$ and $I[c]$, so situation(c) also happens. 
+
+	\item \textbf{proof:} \\
+	According to the conclusion in question (2), we know that Greedy-Schedule is correct iff (a), (b), (c) not happens. So to prove LSTF is correct, is equivalent to prove (a), (b) and (c) cannot happen. \\
+
+	Suppose that for LSTF, (a), (b), (c) happens. For $I_a, I_b, I_c \in I$. We let $s_i, f_i$ be the start time and finish time of interval $I_i$. If (a) is true, here without loss of generality, we let $I_b$ precedes $I_c$,  then $s_a < f_b$ (1) and $ s_c < f_a $. If (b) is true. $f_b < s_c$ (2). From (1) and (2) we know that $s_a < f_b < s_c$ (3). If (c) is true, according to the rules of LSTF, as $I_a$ precedes $I_b, I_c$, $s_a > s_b > s_c$ which contradict (3). So, for LSTF (a), (b), (c) cannot happen together. Thus LSTF is correct. 
+\end{enumerate}

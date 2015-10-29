@@ -1,0 +1,8 @@
+PWD /Users/apple/Documents/2015-FALL/ece1762/homeworks/hw3-folder
+INPUT /usr/local/texlive/2015/texmf.cnf
+INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/apple/Documents/2015-FALL/ece1762/homeworks/hw3-folder/problem1.tex
+OUTPUT /Users/apple/Documents/2015-FALL/ece1762/homeworks/hw3-folder/problem1.log
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
