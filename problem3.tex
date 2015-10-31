@@ -1,1 +1,8 @@
 \section{Problem III}
+\begin{enumerate}
+	\item \textbf{proof:}\\
+	Since for every $S \subseteq U, \mid S \cap U_{i} \mid \geq 2$, functions $h_1, ..., h_i$ are not ferfect for $S$. Then we must have $\mid U_{t} \mid \leq 1$.
+	\item \textbf{proof:}\\
+	Since $U_{0} = U$ and we let $U_{i + 1} = U_{i} \cap h^{-1}_{i + 1}(\alpha)$ for $i < t$, where $\alpha$ is such that $\mid U_{i} \cap h^{-1}_{i + 1}(\alpha) \mid \geq \mid U_{i} \cap h^{-1}_{i + 1}(j) \mid$ for every $j \in [0, ..., m - 1]$. Then $\mid U_{i + 1} \mid \geq \frac{\mid U_{i} \mid}{m}$ and hence $\mid U_{i + 1} \mid \geq \frac{N}{m^{i + 1}} $. Also functions $h_1, ..., h_{i + 1}$ are constant on $U_{i + 1}$ and hence $U_t \leq 1$. Thus $1 \geq \frac{N}{m^t}$ or $t \geq \frac{logN}{logm}$. Which implies
+	$$ \mid H \mid \geq \frac{logN}{logm} $$
+\end{enumerate}

@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1446093636 "/Users/apple/Documents/2015-FALL/ece1762/homeworks/hw3-folder/hw2.tex" "/Users/apple/Documents/2015-FALL/ece1762/homeworks/hw3-folder/hw2.pdf" "hw2" 1446093636
-  "/Users/apple/Documents/2015-FALL/ece1762/homeworks/hw3-folder/hw2.aux" 1446093636 874 d652776df31bf20f2bc9e599c68ecf65 ""
+["pdflatex"] 1446260549 "/Users/apple/Documents/2015-FALL/ece1762/homeworks/hw3-folder/hw2.tex" "/Users/apple/Documents/2015-FALL/ece1762/homeworks/hw3-folder/hw2.pdf" "hw2" 1446260550
+  "/Users/apple/Documents/2015-FALL/ece1762/homeworks/hw3-folder/hw2.aux" 1446260550 874 d652776df31bf20f2bc9e599c68ecf65 ""
   "/Users/apple/Documents/2015-FALL/ece1762/homeworks/hw3-folder/hw2.tex" 1446089532 3627 fa41fe3f26dba845f56480dee9faf355 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -120,17 +120,17 @@
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1432479681 3849859 39a7d258195bde2394e244961601fbc5 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
   "DAG.png" 1446001364 66749 322618c170fead1a67771e72e60cb45a ""
-  "hw2.aux" 1446093636 874 d652776df31bf20f2bc9e599c68ecf65 ""
+  "hw2.aux" 1446260550 874 d652776df31bf20f2bc9e599c68ecf65 ""
   "hw2.tex" 1446089532 3627 fa41fe3f26dba845f56480dee9faf355 ""
   "lineardag.png" 1446001880 46143 cbfe9109e91693cb13bb39d72b0d5b93 ""
   "problem1.tex" 1446089742 3540 23b6daaec4c5831e533ce7bd5fbca4c2 ""
   "problem2.tex" 1446093632 3284 c1abe6e13afa27e91de80d558d935ea6 ""
-  "problem3.tex" 1445979697 21 bc7e6bb018a18b664ae5310152805e72 ""
+  "problem3.tex" 1446260544 831 23306791b8b1a6ef8fea81f74ef7aa3c ""
   "problem4.tex" 1445979723 20 0758e11a3bfa6bbf88482f23c9b4702e ""
   "problem5.tex" 1445979708 19 309b4e9fcbeef025583b880f8b3a74dc ""
   (generated)
   "/Users/apple/Documents/2015-FALL/ece1762/homeworks/hw3-folder/hw2.log"
   "hw2.aux"
-  "hw2.pdf"
-  "/Users/apple/Documents/2015-FALL/ece1762/homeworks/hw3-folder/hw2.pdf"
   "hw2.log"
+  "/Users/apple/Documents/2015-FALL/ece1762/homeworks/hw3-folder/hw2.pdf"
+  "hw2.pdf"
